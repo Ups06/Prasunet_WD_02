@@ -72,7 +72,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -147px
+    margin-left: -147px;
 }
 /* h1 {
     color: white; 
@@ -183,4 +183,9 @@ body {
 .lap:last-child {
     border-bottom: none;
     
+}
+@media (max-width: 412px) {
+.stopwatch{
+    margin-left: -152px;
+}
 }
